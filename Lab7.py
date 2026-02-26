@@ -122,12 +122,10 @@ def get_news(category, api_key_newsapi, output_file):
 
 if __name__ == "__main__":
 
-    # ===== TASK 1 =====
     API_KEY = "b24d732e90fa4731f0b9546aae6f6d93"
     city = "Berezniki"
     display_weather(city, API_KEY)
 
-    # ===== TASK 2 =====
     CATEGORY = 'business'
     API_KEY_NEWSAPI = 'd581663fecc142d4a392715e135b1ddf'
     OUTPUT_FILE = "news_output.json"
